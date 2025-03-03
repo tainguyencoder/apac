@@ -22,15 +22,7 @@ const GalleryFooter = () => {
     {
       img: footerSmallImage4,
       path: "/blogs/4",
-    },
-    {
-      img: footerSmallImage5,
-      path: "/blogs/5",
-    },
-    {
-      img: footerSmallImage1,
-      path: "/blogs/6",
-    },
+    }
   ];
   return (
     <div

@@ -15,10 +15,10 @@ const Copyright = () => {
           <div className="copyright__right">
             <ul>
               <li>
-                <Link href="#">Privacy & Policy ||</Link>
+                <Link href="/contact">Privacy & Policy ||</Link>
               </li>{" "}
               <li>
-                <Link href="#">Terms & Conditions</Link>
+                <Link href="/contact">Terms & Conditions</Link>
               </li>
             </ul>
           </div>

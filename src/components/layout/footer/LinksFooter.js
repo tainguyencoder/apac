@@ -3,24 +3,24 @@ import Link from "next/link";
 const LinksFooter = ({ style }) => {
   const items = [
     {
-      name: "Privacy & policy",
-      path: "#",
+      name: "About Us",
+      path: "/about",
     },
     {
-      name: "Terms & conditions",
-      path: "#",
+      name: "Our Services",
+      path: "/services",
     },
     {
-      name: "FAQ",
-      path: "/faq",
+      name: "Our Clients",
+      path: "/clients",
     },
     {
-      name: "Customer support",
-      path: "/contact",
+      name: "Job Openings",
+      path: "/job-openings",
     },
     {
-      name: "Contact us",
-      path: "/contact",
+      name: "Blogs",
+      path: "/blogs",
     },
   ];
   return (

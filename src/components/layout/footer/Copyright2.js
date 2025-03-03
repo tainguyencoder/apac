@@ -34,13 +34,13 @@ const Copyright2 = ({ style, copyright }) => {
               <div className="copyright__right">
                 <ul>
                   <li>
-                    <a href="#">Privacy & Policy</a>
+                    <a href="/contact">Privacy & Policy</a>
                   </li>{" "}
                   <li>
-                    <a href="#">||</a>
+                    <a href="/contact">||</a>
                   </li>{" "}
                   <li>
-                    <a href="#">Terms & Conditions</a>
+                    <a href="/contact">Terms & Conditions</a>
                   </li>
                 </ul>
               </div>

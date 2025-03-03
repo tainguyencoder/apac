@@ -4,7 +4,7 @@ import getTeamMembers from "@/libs/getTeamMembers";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 const Team2 = ({ type }) => {
-  const team = getTeamMembers().slice(12, 18);
+  const team = getTeamMembers().slice(27, 32);
   return (
     <div
       className={`team__member ${
@@ -18,10 +18,10 @@ const Team2 = ({ type }) => {
           <div className="col-xl-12">
             <div className="section__title text-center sp_bottom_90">
               <div className="section__title__button">
-                <span className="text__gradient">Our Team</span>
+                <span className="text__gradient">Core Values</span>
               </div>
               <div className="section__title__heading">
-                <h3>WE OFFER CONSULTANCY SERVICES.</h3>
+                <h3>WE BRIDGE TOP TALENT WITH IMPACT-DRIVEN ORGANIZATIONS</h3>
               </div>
             </div>
           </div>

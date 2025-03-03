@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import aboutImage4 from '@/assets/img/about/about__4.png';
+import aboutImage4 from '@/assets/img/about/about__5.webp';
 import ButtonPrimary from '@/components/shared/buttons/ButtonPrimary';
 import Link from 'next/link';
 

@@ -23,15 +23,7 @@ const BlogCategories = () => {
     {
       id: 4,
       name: "Financial Restructuring",
-    },
-    {
-      id: 5,
-      name: "Cost Reduction Analysis",
-    },
-    {
-      id: 6,
-      name: "Supply Chain Optimization",
-    },
+    }
   ];
 
   return (

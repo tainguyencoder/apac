@@ -11,8 +11,7 @@ const Services2 = ({ all, service, type, title, pt, pb, isBg, isNotTitle }) => {
   const currentCategory = useSearchParams().get("category");
   const allServices = getAllServices();
   const services = allServices
-    ?.slice(21, 27)
-    .filter(({ category }) =>
+    ?.filter(({ category }) =>
       currentCategory
         ? category.toLowerCase().split(" ").join("-") === currentCategory
         : true
@@ -30,7 +29,6 @@ const Services2 = ({ all, service, type, title, pt, pb, isBg, isNotTitle }) => {
             }
       }
     >
-      {/* service__section__start --> */}
       <div
         className={`service__2   special__spacing ${
           pt || pb

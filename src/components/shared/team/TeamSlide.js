@@ -17,7 +17,7 @@ const TeamSlide = ({ teamSingle }) => {
           </h6>
           <p>{desig}</p>
         </div>
-        <div className="team__member__icon team__member__icon--2">
+        {/* <div className="team__member__icon team__member__icon--2">
           <ul>
             <li>
               <Link href="https://www.facebook.com">
@@ -35,7 +35,7 @@ const TeamSlide = ({ teamSingle }) => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );

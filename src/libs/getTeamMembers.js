@@ -15,6 +15,12 @@ import teamImage14 from "@/assets/img/team/team_14.png";
 import teamImage15 from "@/assets/img/team/team_15.png";
 import teamImage16 from "@/assets/img/team/team_16.png";
 import teamImage17 from "@/assets/img/team/team_17.png";
+import Integrity from "@/assets/img/team/Integrity.png";
+import Excellence from "@/assets/img/team/Excellence.png";
+import Collaboration from "@/assets/img/team/Collaboration.png";
+import Innovation from "@/assets/img/team/Innovation.png";
+import Commitment from "@/assets/img/team/Commitment.png";
+
 const getTeamMembers = () => {
   const team = [
     {
@@ -206,6 +212,42 @@ const getTeamMembers = () => {
       name: "SABRINA TUCKER",
       img: teamImage14,
       desig: "Project Manager",
+      duration: "2500",
+    },
+    // core values
+    {
+      id: 28,
+      name: "Integrity",
+      img: Integrity,
+      desig: "We maintain professionalism and confidentiality, ensuring trust in our recruitment process.",
+      duration: "2500",
+    },
+    {
+      id: 29,
+      name: "Excellence",
+      img: Excellence,
+      desig: "We exceed expectations in sourcing, screening, and placing top talent.",
+      duration: "2500",
+    },
+    {
+      id: 30,
+      name: "Collaboration",
+      img: Collaboration,
+      desig: "We build strong partnerships based on respect, understanding, and shared goals.",
+      duration: "2500",
+    },
+    {
+      id: 31,
+      name: "Innovation",
+      img: Innovation,
+      desig: "We adapt to market needs, using advanced tools to connect top talent with organizations.",
+      duration: "2500",
+    },
+    {
+      id: 32,
+      name: "Commitment to Diversity",
+      img: Commitment,
+      desig: "We promote equal opportunities, fostering innovation through diverse teams.",
       duration: "2500",
     },
   ];

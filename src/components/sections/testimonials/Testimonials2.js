@@ -20,11 +20,11 @@ const Testimonials2 = ({ isGradient, type }) => {
             <div className="section__title text-center sp_bottom_50">
               <div className="section__title__button">
                 <span className={isGradient ? "text__gradient" : ""}>
-                  Happy Customers
+                Our Approach
                 </span>
               </div>
               <div className="section__title__heading">
-                <h3>WE OFFER CONSULTANCY SERVICES.</h3>
+                <h3>At Tech Connect APAC, we tailor recruitment through collaboration and client understanding</h3>
               </div>
             </div>
           </div>

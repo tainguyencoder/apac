@@ -9,6 +9,7 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import serviceDetailsImage1 from '@/assets/img/service/service__details__1.png';
 import serviceDetailsImage2 from '@/assets/img/service/service__details__2.png';
+import ServiceSidebar from '@/components/shared/sidebars/ServiceSidebar';
 const ServiceDetailsPrimary = () => {
   const { id: currentId } = useParams();
   const services = getAllServices();
@@ -32,23 +33,8 @@ const ServiceDetailsPrimary = () => {
     <div className="service__details sp_top_140 sp_bottom_160">
       <div className="container">
         <div className="row">
-          <div className="col-xl-4 col-lg-4 col-md-12 col-12">
-            <CommonContext
-              value={{
-                searchedItems,
-                handleSearch,
-                handleSearchString,
-                startSearch,
-                closeSearch,
-                isShowSearch,
-                sidebar: 'service',
-                isShowQuickSearchResult,
-                setIsShowQuickSearchResult,
-              }}
-            >
-              {/* <BlogSidebar sidebar={'service'} /> */}
-            </CommonContext>
-          </div>
+          <ServiceSidebar currentProject={currentService} />
+
           <div className="col-xl-8 col-lg-8 col-md-12 col-12">
             <div className="service__details__wraper">
               <div
@@ -102,60 +88,6 @@ const ServiceDetailsPrimary = () => {
                         </div>
                       )}
                   </ul>
-                </div>
-              </div>
-              <div
-                className="service__details__planning"
-                data-aos="fade-up"
-                data-aos-duration="1500"
-              >
-                <div className="row">
-                  <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                    <div className="service__details__planning__img">
-                      <Image
-                        src={serviceDetailsImage2}
-                        alt=""
-                        placeholder="blur"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                    <div className="service__details__planning__inner">
-                      <div className="service__details__planning__heading">
-                        <h6>What We Do:</h6>
-                      </div>
-                      <div className="service__details__planning__text">
-                      {currentService.wwd && currentService.wwd.length > 0 && (
-
-                        <div>
-                          <ul
-                            style={{
-                              paddingLeft: '20px',
-                              listStyleType: 'disc',
-                            }}
-                          >
-                            {currentService.wwd.map((item, index) => (
-                              <li
-                                key={index}
-                                style={{
-                                  display: 'block',
-                                  marginBottom: '5px',
-                                }}
-                              >
-                                <span
-                                  style={{ color: 'black', fontSize: '16px' }}
-                                >
-                                  •{' '}
-                                </span>
-                                {item}
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      )}
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

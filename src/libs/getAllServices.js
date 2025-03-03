@@ -13,6 +13,8 @@ import serviceImage13 from "@/assets/img/service/service__13.png";
 import serviceImage14 from "@/assets/img/service/service__14.png";
 import serviceImage15 from "@/assets/img/service/service__15.png";
 import serviceImage16 from "@/assets/img/service/service__16.png";
+import projectImage9 from "@/assets/img/project/project__9.png";
+import projectImage10 from "@/assets/img/project/project__10.png";
 import projectImage11 from "@/assets/img/project/project__11.png";
 import projectImage12 from "@/assets/img/project/project__12.png";
 import projectImage13 from "@/assets/img/project/project__13.png";
@@ -24,7 +26,7 @@ const getAllServices = () => {
       id: 1,
       title: "Executive Search (C-Suite and Senior Leadership)",
       desc: "We specialize in identifying top executives and senior leaders who drive business success.",
-      detailsImg: projectImage15,
+      detailsImg: projectImage9,
       img: serviceImage6,
       category: "Strategic Planning",
       duration: "1500",
@@ -45,7 +47,7 @@ const getAllServices = () => {
       id: 2,
       title: "Talent Acquisition for Mid-to-Senior Roles",
       desc: "We connect businesses with skilled professionals for mid-to-senior-level positions across industries.",
-      detailsImg: projectImage14,
+      detailsImg: projectImage10,
       img: serviceImage7,
       category: "Talent Acquisition",
       duration: "1600",
@@ -66,7 +68,7 @@ const getAllServices = () => {
       id: 3,
       title: "Talent Pool Building and Market Mapping",
       desc: "We help businesses build a strong pipeline of qualified candidates for future hiring needs.",
-      detailsImg: projectImage13,
+      detailsImg: projectImage11,
       img: serviceImage8,
       category: "Workforce Planning",
       duration: "1700",
@@ -82,7 +84,7 @@ const getAllServices = () => {
       id: 4,
       title: "Recruitment Process Outsourcing (RPO)",
       desc: "We offer scalable RPO solutions to manage all or part of your recruitment functions.",
-      detailsImg: projectImage13,
+      detailsImg: projectImage12,
       img: serviceImage8,
       category: "HR Solutions",
       duration: "1800",
@@ -97,7 +99,7 @@ const getAllServices = () => {
       id: 5,
       title: "Diversity and Inclusion Recruitment",
       desc: "We help businesses create diverse, inclusive teams through targeted recruitment strategies.",
-      detailsImg: projectImage15,
+      detailsImg: projectImage13,
       img: serviceImage6,
       category: "Diversity Hiring",
       duration: "1900",

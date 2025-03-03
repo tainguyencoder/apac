@@ -1,7 +1,7 @@
 "use client";
 import HeroInner from "@/components/sections/hero-banners/HeroInner";
 import Services2 from "@/components/sections/services/Services2";
-import Testimonials3 from "@/components/sections/testimonials/Testimonials3";
+import Testimonials2 from "@/components/sections/testimonials/Testimonials2";
 import { useSearchParams } from "next/navigation";
 
 const ServiceMain = () => {
@@ -16,7 +16,8 @@ const ServiceMain = () => {
         type={2}
         isNotTitle={true}
       />
-      {currentCategory ? "" : <Testimonials3 type={2} pb="sp_bottom_180" />}
+      <Testimonials2 />
+      {/* {currentCategory ? "" : <Testimonials3 type={2} pb="sp_bottom_180" />} */}
     </main>
   );
 };

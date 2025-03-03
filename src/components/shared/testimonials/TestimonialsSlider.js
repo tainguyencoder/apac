@@ -5,48 +5,91 @@ import testimonialSmallImage3 from "@/assets/img/testimonial/testimonial__small_
 import testimonialImage3 from "@/assets/img/testimonial/testimonial__3.png";
 import { Navigation } from "swiper/modules";
 const TestimonialsSlider = () => {
+  // const slides = [
+  //   {
+  //     id: 1,
+  //     name: "MATTIE WARNER",
+  //     img: testimonialImage3,
+  //     imgSmall: testimonialSmallImage3,
+  //     desig: "Business Man",
+  //     desc: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "MATTIE WARNER",
+  //     img: testimonialImage3,
+  //     imgSmall: testimonialSmallImage3,
+  //     desig: "Business Man",
+  //     desc: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "MATTIE WARNER",
+  //     img: testimonialImage3,
+  //     imgSmall: testimonialSmallImage3,
+  //     desig: "Business Man",
+  //     desc: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  //   },
+  //   {
+  //     id: 4,
+  //     name: "MATTIE WARNER",
+  //     img: testimonialImage3,
+  //     imgSmall: testimonialSmallImage3,
+  //     desig: "Business Man",
+  //     desc: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  //   },
+  //   {
+  //     id: 5,
+  //     name: "MATTIE WARNER",
+  //     img: testimonialImage3,
+  //     imgSmall: testimonialSmallImage3,
+  //     desig: "Business Man",
+  //     desc: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  //   },
+  // ];
   const slides = [
     {
       id: 1,
-      name: "MATTIE WARNER",
+      name: "IN-DEPTH CONSULTATION",
       img: testimonialImage3,
       imgSmall: testimonialSmallImage3,
       desig: "Business Man",
-      desc: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "We begin by understanding your goals, culture, and hiring challenges.",
     },
     {
       id: 2,
-      name: "MATTIE WARNER",
+      name: "CUSTOM SEARCH STRATEGY",
       img: testimonialImage3,
       imgSmall: testimonialSmallImage3,
       desig: "Business Man",
-      desc: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "We create a tailored recruitment strategy using advanced tools and networks.",
     },
     {
       id: 3,
-      name: "MATTIE WARNER",
+      name: "COMPREHENSIVE SCREENING & INTERVIEWS",
       img: testimonialImage3,
       imgSmall: testimonialSmallImage3,
       desig: "Business Man",
-      desc: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "We rigorously assess candidates through interviews, skills tests, and background checks.",
     },
     {
       id: 4,
-      name: "MATTIE WARNER",
+      name: "CULTURAL FIT ASSESSMENT",
       img: testimonialImage3,
       imgSmall: testimonialSmallImage3,
       desig: "Business Man",
-      desc: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "We evaluate candidate alignment with your values and culture for long-term success.",
     },
     {
       id: 5,
-      name: "MATTIE WARNER",
+      name: "SEAMLESS ONBOARDING",
       img: testimonialImage3,
       imgSmall: testimonialSmallImage3,
       desig: "Business Man",
-      desc: "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "We support candidates through onboarding for a smooth transition into your company.",
     },
   ];
+
   return (
     <Swiper
       className="testimonial__slider__active__2 position-static"

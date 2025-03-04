@@ -1,15 +1,15 @@
-import Blogs2 from "@/components/sections/blogs/Blogs2";
-import Blogs3 from "@/components/sections/blogs/Blogs3";
 import HeroInner from "@/components/sections/hero-banners/HeroInner";
 import TeamPrimary from "@/components/sections/team/TeamPrimary";
 import React from "react";
+import Projects3 from "@/components/sections/projects/Projects3";
 
 const TeamMain = () => {
   return (
     <main>
       <HeroInner title={"Our Clients"} currentItem={"Clients"} />
       <TeamPrimary />
-      <Blogs3 />
+      <Projects3 />
+
     </main>
   );
 };

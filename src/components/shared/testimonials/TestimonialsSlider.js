@@ -66,11 +66,11 @@ const TestimonialsSlider = () => {
     },
     {
       id: 3,
-      name: "COMPREHENSIVE SCREENING & INTERVIEWS",
+      name: "COMPREHENSIVE SCREENING/TESTS",
       img: testimonialImage3,
       imgSmall: testimonialSmallImage3,
       desig: "Business Man",
-      desc: "We rigorously assess candidates through interviews, skills tests, and background checks.",
+      desc: "We rigorously assess candidates through interviews, tests, and background checks.",
     },
     {
       id: 4,
@@ -103,17 +103,17 @@ const TestimonialsSlider = () => {
         },
 
         768: {
-          slidesPerView: 1,
+          slidesPerView: 2,
         },
 
         992: {
-          slidesPerView: 1,
+          slidesPerView: 2,
         },
         1200: {
-          slidesPerView: 2,
+          slidesPerView: 3,
         },
         1500: {
-          slidesPerView: 2,
+          slidesPerView: 3,
         },
       }}
       wrapperClass="testimonial__2__wrap"

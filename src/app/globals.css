@@ -7478,7 +7478,7 @@ button.default__button {
 .team__details__project__manager {
   background: var(--pinkcolor);
   padding: 50px;
-  display: flex;
+  /* display: flex; */
   margin-bottom: 100px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -7488,7 +7488,7 @@ button.default__button {
 }
 @media (max-width: 767px) {
   .team__details__project__manager {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-bottom: 50px;
   }
 }
@@ -7499,16 +7499,16 @@ button.default__button {
 }
 
 .team__details__project__manager__content {
-  width: 75%;
+  width: 100%;
 }
 @media (min-width: 992px) and (max-width: 1365px) {
   .team__details__project__manager__content {
-    width: 55%;
+    width: 100%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .team__details__project__manager__content {
-    width: 50%;
+    width: 100%;
   }
 }
 @media (max-width: 767px) {

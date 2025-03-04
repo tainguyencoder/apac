@@ -7,9 +7,7 @@ import React from "react";
 const TeamPrimary = ({ pt, type }) => {
   const totalTeam = getTeamMembers();
   const team = [
-    // ...totalTeam.slice(0, 4),
-    ...totalTeam.slice(6, 10),
-    ...totalTeam.slice(11, 16),
+    ...totalTeam.slice(32, 39)
   ];
   return (
     <div

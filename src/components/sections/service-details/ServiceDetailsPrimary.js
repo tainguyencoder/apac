@@ -15,7 +15,6 @@ const ServiceDetailsPrimary = () => {
   const services = getAllServices();
   const currentService = services?.find(({ id }) => id === parseInt(currentId));
 
-  console.log(currentService);
   const { title, desc, detailsImg } = currentService;
   const {
     searchString,

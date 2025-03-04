@@ -19,7 +19,7 @@ const Testimonials = ({ type }) => {
       id: 2,
       name: 'Jane Smith',
       desig: 'HR Director of Global Enterprises',
-      desc: '“The professionalism and expertise of X are unmatched. They provided us with top-tier executives who have already made significant contributions to our strategic goals.”',
+      desc: '“The professionalism and expertise of Tech Connect APAC are unmatched. They provided us with top-tier executives who have already made significant contributions to our strategic goals.”',
     },
   ];
   return (

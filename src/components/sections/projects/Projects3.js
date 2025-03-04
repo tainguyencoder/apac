@@ -8,48 +8,103 @@ import ProjectCard3 from "@/components/shared/cards/ProjectCard3";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import { Navigation } from "swiper/modules";
 
+import projectImage15 from "@/assets/img/project/project__15.png";
+import projectImage16 from "@/assets/img/project/project__16.png";
+import projectImage17 from "@/assets/img/project/project__17.png";
+import projectImage18 from "@/assets/img/project/project__18.png";
+import projectImage19 from "@/assets/img/project/project__19.png";
+import projectImage20 from "@/assets/img/project/project__20.png";
+import projectImage21 from "@/assets/img/project/project__21.png";
+import projectImage22 from "@/assets/img/project/project__22.png";
+import projectImage23 from "@/assets/img/project/project__23.png";
+import projectImage24 from "@/assets/img/project/project__24.png";
+import projectImage25 from "@/assets/img/project/project__25.png";
+import projectImage26 from "@/assets/img/project/project__26.png";
+import projectImage27 from "@/assets/img/project/project__27.png";
+import projectImage28 from "@/assets/img/project/project__28.png";
+import projectImage29 from "@/assets/img/project/project__29.png";
+
 const Projects3 = () => {
   const projects = [
     {
       id: 1,
-      title: "Risk assessment and management",
-      img: projectImage8,
+      title: "Exigo Group",
+      img: projectImage15,
     },
     {
       id: 2,
-      title: "Best assessment and management",
-      img: projectImage9,
+      title: "KPMG",
+      img: projectImage16,
     },
     {
       id: 3,
-      title: "Asset assessment and management",
-      img: projectImage10,
+      title: "Deloitte",
+      img: projectImage17,
     },
     {
       id: 4,
-      title: "Risk assessment and management",
-      img: projectImage8,
+      title: "Quantas",
+      img: projectImage18,
+    },
+    {
+      id: 5,
+      title: "REA Group",
+      img: projectImage19,
+    },
+    {
+      id: 6,
+      title: "Nestle",
+      img: projectImage20,
+    },
+    {
+      id: 7,
+      title: "URC",
+      img: projectImage21,
+    },
+    {
+      id: 8,
+      title: "Novartis",
+      img: projectImage22,
+    },
+    {
+      id: 9,
+      title: "Krungthai AXA Life Insurance PCL",
+      img: projectImage23,
+    },
+    {
+      id: 10,
+      title: "Sanofi",
+      img: projectImage24,
+    },
+    {
+      id: 11,
+      title: "CLP Holdings",
+      img: projectImage25,
+    },
+    {
+      id: 12,
+      title: "Lenovo Group",
+      img: projectImage26,
+    },
+    {
+      id: 13,
+      title: "Roma Group",
+      img: projectImage27,
+    },
+    {
+      id: 14,
+      title: "Manulife",
+      img: projectImage28,
+    },
+    {
+      id: 15,
+      title: "Finhay",
+      img: projectImage29,
     },
   ];
   return (
-    <div className="project__3 sp_top_140 sp_bottom_140" id="project__area">
+    <div className="project__3 sp_bottom_140" id="project__area">
       <div className="container">
-        <div
-          className="row sp_bottom_70"
-          data-aos="fade-up"
-          data-aos-duration="1500"
-        >
-          <div className="col-xl-9 col-lg-9 col-md-9 col-sm-8 col-8">
-            <div className="section__title section__title--2  section__title--3">
-              <div className="section__title__button">
-                <span>Our Project</span>
-              </div>
-              <div className="section__title__heading">
-                <h3>COMPLETED PROJECTS</h3>
-              </div>
-            </div>
-          </div>
-        </div>
         <div
           className="row position-relative"
           data-aos="fade-up"
@@ -74,10 +129,10 @@ const Projects3 = () => {
                 slidesPerView: 3,
               },
               1200: {
-                slidesPerView: 3,
+                slidesPerView: 4,
               },
               1500: {
-                slidesPerView: 3,
+                slidesPerView: 5,
               },
             }}
           >
@@ -89,7 +144,7 @@ const Projects3 = () => {
                 <ProjectCard3 project={project} />
               </SwiperSlide>
             ))}
-            <div className="slider__control__top__wrap ">
+            {/* <div className="slider__control__top__wrap ">
               <div className="slider__controls__wrap slider__controls__pagination slider__controls__arrows slider__controls__arrows--3">
                 <div className="swiper-button-next arrow-btn">
                   <svg
@@ -144,18 +199,8 @@ const Projects3 = () => {
                   </svg>
                 </div>
               </div>
-            </div>
+            </div> */}
           </Swiper>
-
-          <div
-            className="col-xl-12"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-          >
-            <div className="project__3__button">
-              <ButtonPrimary text="VIEW OTHER PROJECTS" path="/projects" />
-            </div>
-          </div>
         </div>
       </div>
     </div>

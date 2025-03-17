@@ -13,7 +13,7 @@ const TeamSlide = ({ teamSingle }) => {
 
         <div className="team__member__name">
           <h6>
-            <Link href={`/team/${id}`}>{name}</Link>
+            <div>{name}</div>
           </h6>
           <p>{desig}</p>
         </div>

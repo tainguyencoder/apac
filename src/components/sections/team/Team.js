@@ -22,12 +22,10 @@ const Team = () => {
                 data-aos-duration="1500"
               >
                 <div className="section__title__heading">
-                  <h3>CONTUATION EXPERTISE! YOU CAN TRUST.</h3>
+                  <h3>CONTUATION EXPERTISE! YOU CAN TRUST</h3>
                 </div>
                 <div className="section__title__text">
                   <p>
-                    Sagittis purus sit amet volutpat consequat mauris nunc
-                    congue nisi and tortor dignissim.
                   </p>
                 </div>
               </div>

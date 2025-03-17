@@ -4,7 +4,7 @@ import getTeamMembers from "@/libs/getTeamMembers";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 const Team2 = ({ type }) => {
-  const team = getTeamMembers().slice(27, 32);
+  const team = getTeamMembers().slice(0, 5);
   return (
     <div
       className={`team__member ${

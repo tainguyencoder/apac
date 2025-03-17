@@ -27,7 +27,7 @@ const LogoFooter = ({ style }) => {
         <div className="footer__text">
           <p>Connecting Talent with Opportunity</p>
         </div>
-        <div className="footer__icon">
+        {/* <div className="footer__icon">
           <ul>
             <li>
               <Link href="https://www.facebook.com">
@@ -50,7 +50,7 @@ const LogoFooter = ({ style }) => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -21,6 +21,18 @@ const Testimonials = ({ type }) => {
       desig: 'HR Director of Global Enterprises',
       desc: '“The professionalism and expertise of Tech Connect APAC are unmatched. They provided us with top-tier executives who have already made significant contributions to our strategic goals.”',
     },
+    {
+      id: 3,
+      name: 'David Brown',
+      desig: 'CEO of NexGen Technologies',
+      desc: '“Tech Connect APAC played a crucial role in helping us find the right executives to lead our expansion. Their deep understanding of our industry and culture made the hiring process seamless.”',
+    },
+    {
+      id: 4,
+      name: 'Emily Davis',
+      desig: 'VP of Human Resources at Global Solutions Inc.',
+      desc: '“The team at X exceeded our expectations. They provided us with top-tier candidates who have already made a measurable impact on our organization.”',
+    },
   ];
   return (
     <div
@@ -40,8 +52,9 @@ const Testimonials = ({ type }) => {
               </div>
               <div className="section__title__text">
                 <p>
-                  Heartfelt stories from satisfied clients who found success
-                  with us.
+                  Heartfelt stories from satisfied clients
+                  <br/>
+                  who found success with us
                 </p>
               </div>
             </div>

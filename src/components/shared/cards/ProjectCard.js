@@ -5,7 +5,7 @@ const ProjectCard = ({ project, type }) => {
   const { title, id, duration, img } = project;
   return (
     <div
-      className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
+      className="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12"
       data-aos="fade-up"
       data-aos-duration={duration}
     >

@@ -7,7 +7,7 @@ const Copyright = () => {
         <div className="col-xl-6 col-lg-6 col-md-6 col-12">
           <div className="copyright__left">
             <p>
-              Copyright © 2024 <Link href="/">Tech Connect APAC.</Link> All Right Reserved
+              © 2024 <Link href="/">Tech Connect APAC</Link>. Design & Develop with ❤️{' '}by <Link href="/">APAC </Link>
             </p>
           </div>
         </div>

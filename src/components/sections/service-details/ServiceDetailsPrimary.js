@@ -75,12 +75,7 @@ const ServiceDetailsPrimary = () => {
                                   marginBottom: '5px',
                                 }}
                               >
-                                <span
-                                  style={{ color: 'black', fontSize: '16px' }}
-                                >
-                                  •{' '}
-                                </span>
-                                {item}
+                                <p>• {item}</p>
                               </li>
                             ))}
                           </ul>

@@ -14,6 +14,32 @@ const getAllProjects = () => {
   const projects = [
     {
       id: 1,
+      title: "Recruitment Consultant",
+      img: hiring,
+      duration: "1500",
+      location: "HCM (Full-time/ Hybrid/ Remote)",
+      industry: " IT & Marketing",
+      salary: "Competitive + Benefits",
+      jd: "As a Recruitment Consultant, you will play a 360-degree role, managing and developing strong client relationships by providing top-notch customer service and delivering superior candidate profiles. Your responsibilities will include pitching new business, building long-term relationships with new and existing clients, and offering consultation to a large network of candidates with both immediate and long-term career needs",
+      res: [
+        "Develop and maintain strong client relationships, ensuring high-quality customer service",
+        "Pitch new business opportunities and build long-term partnerships with clients",
+        "Provide consultation to a large network of candidates for both short-term and long-term career needs",
+        "Focus on recruitment in IT, Marketing, Business Development, HR, and related positions, with a primary focus on IT & Marketing",
+        "Conduct interviews, match candidates to job openings, and understand job seekers' requirements",
+        "Offer professional consultation on employment market trends and recruitment best practices",
+        "Follow up regularly with clients and candidates to ensure satisfaction"
+      ],
+      quali: [
+        "At least 1 year of relevant work experience",
+        "Bachelor’s degree in Business, Human Resources, Finance, Accounting, Technical, Industrial, or IT",
+        "Strong communication skills in English",
+        "Eager to learn, with a focus on integrity and gratitude"
+      ]
+
+    },
+    {
+      id: 2,
       title: "Chief Financial Officer (CFO) - Global Tech Company",
       img: hiring,
       duration: "1500",
@@ -34,7 +60,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 2,
+      id: 3,
       title: "Head of Marketing - Consumer Goods Brand",
       img: hiring,
       duration: "1500",
@@ -55,7 +81,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: "Senior Data Scientist - FinTech Startup",
       img: hiring,
       duration: "1500",
@@ -76,7 +102,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 4,
+      id: 5,
       title: "Vice President of Sales - Healthcare Technology",
       img: hiring,
       duration: "1500",
@@ -97,7 +123,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 5,
+      id: 6,
       title: "Product Manager - E-Commerce Platform",
       img: hiring,
       duration: "1500",
@@ -118,7 +144,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 6,
+      id: 7,
       title: "HR Director - Global Manufacturing Company",
       img: hiring,
       duration: "1500",
@@ -139,7 +165,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 7,
+      id: 8,
       title: "Customer Support Manager",
       img: hiring,
       duration: "1500",
@@ -160,7 +186,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 8,
+      id: 9,
       title: "UI/UX Specialist",
       img: hiring,
       duration: "1500",
@@ -181,7 +207,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 9,
+      id: 10,
       title: "Logistics Manager",
       img: hiring,
       duration: "1500",
@@ -202,7 +228,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 10,
+      id: 11,
       title: "General Counsel",
       img: hiring,
       duration: "1500",
@@ -224,7 +250,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 11,
+      id: 12,
       title: "Tax Manager",
       img: hiring,
       duration: "1500",
@@ -246,7 +272,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 12,
+      id: 13,
       title: "SEO Manager",
       img: hiring,
       duration: "1500",
@@ -268,7 +294,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 13,
+      id: 14,
       title: "QA Tester",
       img: hiring,
       duration: "1500",
@@ -290,7 +316,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 14,
+      id: 15,
       title: "Regional Sales Manager",
       img: hiring,
       duration: "1500",
@@ -312,7 +338,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 15,
+      id: 16,
       title: "Cloud Architect",
       img: hiring,
       duration: "1500",
@@ -334,7 +360,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 16,
+      id: 17,
       title: "Director of Operations",
       img: hiring,
       duration: "1500",
@@ -356,7 +382,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 17,
+      id: 18,
       title: "IT Manager",
       img: hiring,
       duration: "1500",
@@ -378,7 +404,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 18,
+      id: 19,
       title: "AI Engineer",
       img: hiring,
       duration: "1500",
@@ -400,7 +426,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 19,
+      id: 20,
       title: "Account Executive",
       img: hiring,
       duration: "1500",
@@ -422,7 +448,7 @@ const getAllProjects = () => {
       ]
     },
     {
-      id: 20,
+      id: 21,
       title: "HR Business Partner",
       img: hiring,
       duration: "1500",

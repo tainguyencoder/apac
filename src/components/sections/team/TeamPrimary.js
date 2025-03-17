@@ -1,14 +1,16 @@
 import TeamCard2 from "@/components/shared/cards/TeamCard2";
 import Nodata from "@/components/shared/no-data/Nodata";
-import getTeamMembers from "@/libs/getTeamMembers";
+import getClients from "@/libs/getClients";
 import Link from "next/link";
 import React from "react";
+import getTeamMembers from "@/libs/getTeamMembers";
 
 const TeamPrimary = ({ pt, type }) => {
-  const totalTeam = getTeamMembers();
+  const totalTeam = getTeamMembers().slice(5, 11);
   const team = [
-    ...totalTeam.slice(32, 39)
+    ...totalTeam,
   ];
+  console.log(team);
   return (
     <div
       className={`service__details ${

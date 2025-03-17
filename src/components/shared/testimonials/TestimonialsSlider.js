@@ -66,11 +66,11 @@ const TestimonialsSlider = () => {
     },
     {
       id: 3,
-      name: "COMPREHENSIVE SCREENING/TESTS",
+      name: "EXTENSIVE SCREENING",
       img: testimonialImage3,
       imgSmall: testimonialSmallImage3,
       desig: "Business Man",
-      desc: "We rigorously assess candidates through interviews, tests, and background checks.",
+      desc: "We rigorously assess candidates through interviews, tests, and checks.",
     },
     {
       id: 4,
@@ -78,7 +78,7 @@ const TestimonialsSlider = () => {
       img: testimonialImage3,
       imgSmall: testimonialSmallImage3,
       desig: "Business Man",
-      desc: "We evaluate candidate alignment with your values and culture for long-term success.",
+      desc: "We evaluate candidate alignment with your values and culture for success.",
     },
     {
       id: 5,
@@ -86,7 +86,7 @@ const TestimonialsSlider = () => {
       img: testimonialImage3,
       imgSmall: testimonialSmallImage3,
       desig: "Business Man",
-      desc: "We support candidates through onboarding for a smooth transition into your company.",
+      desc: "We support candidates through onboarding for a smooth transition.",
     },
   ];
 

@@ -20,6 +20,15 @@ import projectImage12 from "@/assets/img/project/project__12.png";
 import projectImage13 from "@/assets/img/project/project__13.png";
 import projectImage14 from "@/assets/img/project/project__14.png";
 import projectImage15 from "@/assets/img/service/service__details__1.png";
+
+import serviceImage17 from "@/assets/img/service/service__17.png";
+import serviceImage18 from "@/assets/img/service/service__18.png";
+import serviceImage19 from "@/assets/img/service/service__19.png";
+import serviceImage20 from "@/assets/img/service/service__20.png";
+import serviceImage21 from "@/assets/img/service/service__21.png";
+import serviceImage22 from "@/assets/img/service/service__22.png";
+
+
 const getAllServices = () => {
   const services = [
     {
@@ -27,7 +36,7 @@ const getAllServices = () => {
       title: "Executive Search (C-Suite and Senior Leadership)",
       desc: "We specialize in identifying top executives and senior leaders who drive business success.",
       detailsImg: projectImage9,
-      img: serviceImage6,
+      img: serviceImage17,
       category: "Strategic Planning",
       duration: "1500",
       intro: "Our Executive Search service focuses on recruiting C-suite executives, directors, and senior leaders. Using a strategic, research-driven approach, we identify high-potential candidates who align with your business vision.",
@@ -48,7 +57,7 @@ const getAllServices = () => {
       title: "Talent Acquisition for Mid-to-Senior Roles",
       desc: "We connect businesses with skilled professionals for mid-to-senior-level positions across industries.",
       detailsImg: projectImage10,
-      img: serviceImage7,
+      img: serviceImage18,
       category: "Talent Acquisition",
       duration: "1600",
       intro: "Our Talent Acquisition service helps companies recruit mid-to-senior-level professionals across various functional areas, including operations, marketing, sales, finance, and technology.",
@@ -69,7 +78,7 @@ const getAllServices = () => {
       title: "Talent Pool Building and Market Mapping",
       desc: "We help businesses build a strong pipeline of qualified candidates for future hiring needs.",
       detailsImg: projectImage11,
-      img: serviceImage8,
+      img: serviceImage19,
       category: "Workforce Planning",
       duration: "1700",
       intro: "Our Talent Pool Building and Market Mapping services provide a proactive approach to recruitment by identifying top talent before roles become available, ensuring companies stay ahead in hiring.",
@@ -85,7 +94,7 @@ const getAllServices = () => {
       title: "Recruitment Process Outsourcing (RPO)",
       desc: "We offer scalable RPO solutions to manage all or part of your recruitment functions.",
       detailsImg: projectImage12,
-      img: serviceImage8,
+      img: serviceImage20,
       category: "HR Solutions",
       duration: "1800",
       intro: "Our RPO service allows businesses to outsource recruitment operations, providing dedicated teams and tailored hiring strategies to optimize talent acquisition.",
@@ -100,7 +109,7 @@ const getAllServices = () => {
       title: "Diversity and Inclusion Recruitment",
       desc: "We help businesses create diverse, inclusive teams through targeted recruitment strategies.",
       detailsImg: projectImage13,
-      img: serviceImage6,
+      img: serviceImage21,
       category: "Diversity Hiring",
       duration: "1900",
       intro: "Our Diversity and Inclusion Recruitment service focuses on sourcing underrepresented talent, fostering equitable hiring, and helping companies build inclusive workplaces.",
@@ -115,7 +124,7 @@ const getAllServices = () => {
       title: "Employer Branding & Talent Attraction",
       desc: "We strengthen employer branding to attract top-tier candidates and industry leaders.",
       detailsImg: projectImage14,
-      img: serviceImage7,
+      img: serviceImage22,
       category: "Talent Marketing",
       duration: "2000",
       intro: "Our Employer Branding & Talent Attraction services help companies establish a strong employer brand, making them more appealing to top talent.",

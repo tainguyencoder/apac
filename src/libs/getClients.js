@@ -27,107 +27,10 @@ import teamImage36 from '@/assets/img/team/team_36.png';
 import teamImage37 from '@/assets/img/team/team_37.png';
 import teamImage38 from '@/assets/img/team/team_38.png';
 
-const getTeamMembers = () => {
-  const team = [
-    // core values
+const getClients = () => {
+  const client = [
     {
-      id: 1,
-      name: 'Integrity',
-      img: Integrity,
-      desig:
-        'We maintain professionalism and confidentiality, ensuring trust in our recruitment process.',
-      duration: '2500',
-      indSer: [
-        'Technology & IT',
-        'Financial Services',
-        'Pharmaceuticals & Healthcare',
-        'Manufacturing & Engineering',
-        'Retail & Consumer Goods',
-        'Energy & Utilities',
-      ],
-      desc: 'Tech Connect APAC has extensive experience working with established multinational corporations and large enterprises. These organizations require high-level executives and specialized professionals who can thrive in a fast-paced, competitive environment. We support these businesses in identifying and attracting top talent for key leadership and specialized roles, including C-suite executives, directors, and department heads.',
-      intro:
-        'We help corporations find top executives and specialists to stay competitive',
-    },
-    {
-      id: 2,
-      name: 'Excellence',
-      img: Excellence,
-      desig:
-        'We exceed expectations in sourcing, screening, and placing top talent.',
-      duration: '2500',
-      indSer: [
-        'Technology & IT',
-        'Financial Services',
-        'Pharmaceuticals & Healthcare',
-        'Manufacturing & Engineering',
-        'Retail & Consumer Goods',
-        'Energy & Utilities',
-      ],
-      desc: 'Tech Connect APAC has extensive experience working with established multinational corporations and large enterprises. These organizations require high-level executives and specialized professionals who can thrive in a fast-paced, competitive environment. We support these businesses in identifying and attracting top talent for key leadership and specialized roles, including C-suite executives, directors, and department heads.',
-      intro:
-        'We help corporations find top executives and specialists to stay competitive',
-    },
-    {
-      id: 3,
-      name: 'Collaboration',
-      img: Collaboration,
-      desig:
-        'We build strong partnerships based on respect, understanding, and shared goals.',
-      duration: '2500',
-      indSer: [
-        'Technology & IT',
-        'Financial Services',
-        'Pharmaceuticals & Healthcare',
-        'Manufacturing & Engineering',
-        'Retail & Consumer Goods',
-        'Energy & Utilities',
-      ],
-      desc: 'Tech Connect APAC has extensive experience working with established multinational corporations and large enterprises. These organizations require high-level executives and specialized professionals who can thrive in a fast-paced, competitive environment. We support these businesses in identifying and attracting top talent for key leadership and specialized roles, including C-suite executives, directors, and department heads.',
-      intro:
-        'We help corporations find top executives and specialists to stay competitive',
-    },
-    {
-      id: 4,
-      name: 'Innovation',
-      img: Innovation,
-      desig:
-        'We adapt to market needs, using advanced tools to connect top talent with organizations.',
-      duration: '2500',
-      indSer: [
-        'Technology & IT',
-        'Financial Services',
-        'Pharmaceuticals & Healthcare',
-        'Manufacturing & Engineering',
-        'Retail & Consumer Goods',
-        'Energy & Utilities',
-      ],
-      desc: 'Tech Connect APAC has extensive experience working with established multinational corporations and large enterprises. These organizations require high-level executives and specialized professionals who can thrive in a fast-paced, competitive environment. We support these businesses in identifying and attracting top talent for key leadership and specialized roles, including C-suite executives, directors, and department heads.',
-      intro:
-        'We help corporations find top executives and specialists to stay competitive',
-    },
-    {
-      id: 5,
-      name: 'Commitment to Diversity',
-      img: Commitment,
-      desig:
-        'We promote equal opportunities, fostering innovation through diverse teams.',
-      duration: '2500',
-      indSer: [
-        'Technology & IT',
-        'Financial Services',
-        'Pharmaceuticals & Healthcare',
-        'Manufacturing & Engineering',
-        'Retail & Consumer Goods',
-        'Energy & Utilities',
-      ],
-      desc: 'Tech Connect APAC has extensive experience working with established multinational corporations and large enterprises. These organizations require high-level executives and specialized professionals who can thrive in a fast-paced, competitive environment. We support these businesses in identifying and attracting top talent for key leadership and specialized roles, including C-suite executives, directors, and department heads.',
-      intro:
-        'We help corporations find top executives and specialists to stay competitive',
-    },
-    // hehe
-    {
-      id: 6,
+      id: 33,
       name: 'Large Enterprises and Corporations',
       img: teamImage33,
       desig:
@@ -142,11 +45,10 @@ const getTeamMembers = () => {
         'Energy & Utilities',
       ],
       desc: 'Tech Connect APAC has extensive experience working with established multinational corporations and large enterprises. These organizations require high-level executives and specialized professionals who can thrive in a fast-paced, competitive environment. We support these businesses in identifying and attracting top talent for key leadership and specialized roles, including C-suite executives, directors, and department heads.',
-      intro:
-        'We help corporations find top executives and specialists to stay competitive',
+      intro: "We help corporations find top executives and specialists to stay competitive",
     },
     {
-      id: 7,
+      id: 34,
       name: 'Growing Startups & Scaleups',
       img: teamImage34,
       desig:
@@ -160,10 +62,10 @@ const getTeamMembers = () => {
         'CleanTech & Sustainability',
       ],
       desc: 'Startups and fast-growing companies often face unique challenges when it comes to building high-performing teams. At Tech Connect APAC, we understand the agility and innovation needed in these environments. We help emerging companies find exceptional talent for leadership positions, technical roles, and other critical functions that are pivotal to their growth and success.',
-      intro: 'We recruit key leaders and tech talent for fast-growing startups',
+      intro: "We recruit key leaders and tech talent for fast-growing startups",
     },
     {
-      id: 8,
+      id: 35,
       name: 'Mid-Sized Companies and Organizations ',
       img: teamImage35,
       desig:
@@ -177,10 +79,11 @@ const getTeamMembers = () => {
         'Telecommunications',
       ],
       desc: 'For mid-sized companies aiming for growth, our Tech Connect APAC team provides end-to-end recruitment services to ensure you find candidates who can help you reach your next level. Whether you need key managers, functional experts, or directors, we help companies find professionals who can scale and lead their operations effectively.',
-      intro: 'We provide top managers and experts to drive business growth',
+      intro: "We provide top managers and experts to drive business growth",
+
     },
     {
-      id: 9,
+      id: 36,
       name: 'Non-Profit Organizations and Foundations',
       img: teamImage36,
       desig:
@@ -194,10 +97,11 @@ const getTeamMembers = () => {
         'Social Services',
       ],
       desc: "We also work closely with non-profit organizations, helping them identify leaders who can drive their mission forward. Whether it's an Executive Director, Program Manager, or Fundraising Lead, Tech Connect APAC partners with nonprofits to find individuals who are passionate about social impact and have the leadership skills to bring about change.",
-      intro: 'We connect mission-driven leaders with impactful organizations',
+      intro: "We connect mission-driven leaders with impactful organizations",
+
     },
     {
-      id: 10,
+      id: 37,
       name: 'Government and Public Sector Organizations',
       img: teamImage37,
       desig:
@@ -211,10 +115,11 @@ const getTeamMembers = () => {
         'Urban Planning & Development',
       ],
       desc: 'At Tech Connect APAC, we also provide recruitment services for government and public sector organizations. These organizations require professionals with both technical expertise and a deep understanding of public policy and governance. We help public institutions fill leadership positions, specialized roles, and advisory roles that require a combination of strategic vision and operational efficiency.',
-      intro: 'We source top talent for government and policy-driven roles',
+      intro: "We source top talent for government and policy-driven roles",
+
     },
     {
-      id: 11,
+      id: 38,
       name: 'Family-Owned Businesses and Private Equity Firms',
       img: teamImage38,
       desig:
@@ -227,10 +132,11 @@ const getTeamMembers = () => {
         'Healthcare & Medical Practices',
       ],
       desc: 'Tech Connect APAC also serves family-owned businesses and private equity firms that require strong leadership to take their operations to the next level. Whether for succession planning, new investments, or business transformations, we help these companies find leaders who can balance both business acumen and cultural alignment.',
-      intro: 'We secure executives for growth and succession planning',
+      intro: "We secure executives for growth and succession planning",
+
     },
   ];
-  return team;
+  return client;
 };
 
-export default getTeamMembers;
+export default getClients;

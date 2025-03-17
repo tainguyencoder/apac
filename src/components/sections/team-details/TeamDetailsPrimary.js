@@ -8,7 +8,8 @@ import TeamSidebar from '@/components/shared/sidebars/TeamSidebar';
 
 const TeamDetailsPrimary = ({ pb }) => {
   const { id: currentId } = useParams();
-  const team = getTeamMembers().slice(32,39);
+  const team = getTeamMembers();
+  console.log(team);
   const currentTeam = team?.find(
     ({ id }) => id === parseInt(currentId)
   );

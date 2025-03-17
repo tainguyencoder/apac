@@ -31,10 +31,19 @@ const About3 = ({ type }) => {
                 </div>
                 <div className="section__title__heading">
                   <h3>
-                    Tech Connect APAC is a top IT staffing agency in Southeast
-                    Asia, connecting businesses with elite talent through 5+
-                    years of expertise.
+                  Tech Connect APAC is a top IT staffing and consulting firm in Southeast Asia, expanding across APAC with 1,000+ experts and a new Vietnam office in 2024
                   </h3>
+                </div>
+                <div className="section__title__text">
+                  <p>
+                  At Tech Connect APAC, we connect top-tier talent with forward-thinking organizations through high-end headhunting. With deep industry insight and a vast network, we secure leaders and specialists who drive business success.
+                  </p>
+                </div>
+                {/* <br/> */}
+                <div className="section__title__text">
+                  <p>
+                  More than filling roles, we forge lasting partnerships, ensuring candidates align with both technical needs and company culture. Whether you need C-suite executives or niche experts, we find professionals who bring vision, innovation, and leadership.
+                  </p>
                 </div>
               </div>
 
